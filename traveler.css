@@ -1,2 +1,45 @@
-/* Traveler Times style sheet, by Jessica Miller */
+/* Traveler Times style sheet, by Piet Schaeffer (09/14 @ 2334) */
 
+body {
+    font-family: "Verdana", "Geneva", sans-serif;
+    font-size: 12pt;
+}
+h1 {
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+h2, h3 {
+    background-color: #336699;
+    color: white;
+}
+
+a  {
+    color: #151B54;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ol, ul {
+    background-color: #cccccc;
+}
+
+/*specifically for ol*/
+ol {
+    list-style-type: upper-roman;
+}
+p {
+    text-align: justify;
+    text-indent: 2em;
+}
+
+/*key info for drinkers*/
+#dublinbeer {
+    font-style:italic;
+}
+
+/*for paragraphs to go with images*/
+.figure {
+    text-align:center;
+}
